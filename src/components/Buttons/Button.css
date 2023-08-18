@@ -1,0 +1,7 @@
+button[id^='numbtn10']{
+    width: 130px;
+}
+
+button[id^='opbtn4']{
+    height: 130px;
+}

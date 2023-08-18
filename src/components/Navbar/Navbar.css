@@ -1,0 +1,42 @@
+#navbar{
+    width: 100vw;
+    height: 50px;
+    background-color: rgb(41, 199, 231);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    height: 45px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.logo{
+    background-color: rgb(255, 255, 255);
+    margin-right: 10px;
+    height: 40px;
+    border-radius: 2px;
+    padding-top: -2px;
+}
+
+.logo:hover{
+background-color: rgb(0, 73, 137);
+}
+
+.link{
+    /* margin-left: 10px; */
+    background-color: rgb(42, 126, 165);
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.link:hover{
+    color: blueviolet;
+    background-color: aliceblue;
+}
+

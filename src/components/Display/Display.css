@@ -1,0 +1,29 @@
+.display{
+    height: 80px;
+    width: 320px; 
+    /* border-width: 2px; */
+    border-style: solid ;
+    border-left: 0px;
+    border-right: none;
+  
+    border-color: rgb(255, 255, 255);
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.inputbox{
+    width: 260px;
+    background-color: transparent;
+    border-style: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'orbitron';
+    margin-top: 10px;
+    text-shadow: 2px 2px 5px rgb(60, 54, 177);
+}
+
+input:focus{
+    outline: 0px;
+    border: none;
+    border-style: none;
+}

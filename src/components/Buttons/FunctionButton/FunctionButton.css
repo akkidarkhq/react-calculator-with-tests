@@ -1,0 +1,41 @@
+
+#ac1{
+    width: 120px;
+}
+
+
+.fnBtnContainer{
+    /* background: #282c34; */
+    height: 140px;
+    width: 210px;
+    float: left;
+    
+}
+
+.fnbtn{
+    height: 60px;
+    width: 60px;
+    margin-right: 5px;
+    margin-inline: 5px;
+    margin-bottom: 10px;
+    border-color: rgb(255, 255, 255);
+   border-style: solid;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    border-width: 1px ;
+    font-family: 'orbitron';
+    text-shadow: 2px 2px 5px black;
+
+    box-shadow: 2px 2px 5px 2px #ab0148;
+}
+
+.fnbtn:hover{
+    background-color: #d80355;
+    box-shadow: 0px 0px 2px 2px  cornflowerblue;
+    color:rgb(255, 255, 255);
+}
+
+.fnbtn:active{
+    background-color: aliceblue;
+    color: black;
+}

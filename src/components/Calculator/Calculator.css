@@ -1,0 +1,29 @@
+.calculatorContainer{
+    
+    margin-top: 20px;
+    height: 580px;
+    width: 320px;
+    color: azure;
+    background-color: #242e3a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: aliceblue;    
+    font-family: 'orbitron';
+    box-shadow: 2px 2px 12px 0px #050709;
+}
+
+.btncontainer{
+    /* background-color: rgb(96, 100, 117); */
+    height: 415px;
+    width: 280px;
+    padding-top: 5px;
+}
+
+
+

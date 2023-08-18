@@ -1,0 +1,38 @@
+.operation{
+    /* background-color: blueviolet; */
+    height: 310px;
+    width: 70px;
+    float:right;
+}
+
+.opbtns{
+    height: 60px;
+    width: 60px;
+    margin-bottom: 10px;
+    background-color:transparent;
+    border-style:solid ;
+    color: aliceblue;
+    border-radius: 0px;
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 5px .1px #d2ff0c;
+    
+    /* box-shadow: 2px 2px 2px azure   ; */
+}
+
+.opbtns:hover{
+    background-color:  #d3ec62;
+    box-shadow: #508bf9;
+    box-shadow: 0px 0px 2px 2px  #508bf9;
+    color: black;
+
+}
+
+.opbtns:active{
+    background-color:  #508bf9;
+    color: black;
+}
+
+#opbtn4{
+    height: 130px;
+}
