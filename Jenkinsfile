@@ -9,7 +9,7 @@ pipeline {
                 bat 'npm install'
 			
 			echo 'npm build running'				
-				bat 'npm build'
+				bat 'npm run build'
             }
         }
 		
