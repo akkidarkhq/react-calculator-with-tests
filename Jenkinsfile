@@ -10,6 +10,9 @@ pipeline {
 			
 			echo 'npm build running'				
 				bat 'npm run build'
+				
+			echo 'npm test running'				
+				bat 'npm test'
             }
         }
 		
