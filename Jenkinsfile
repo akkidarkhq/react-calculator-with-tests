@@ -3,11 +3,15 @@ pipeline {
 	
     stages {
      
-		stage('Build') { 
+		stage('Install') { 
             steps {
-			echo 'hello npm install'
-                bat 'npm install' 
+			echo 'npm install '
+                bat 'npm install'
+			
+			echo 'npm build running'				
+				bat 'npm build'
             }
         }
+		
     }
 }
