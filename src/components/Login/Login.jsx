@@ -29,7 +29,7 @@ const Login = () => {
       
       AuthService.login(username, password).
       then(respone=>{
-        navigate("/profile")}
+        navigate("/calc")}
         ).catch((err)=>{
           if(err==401){
               setErrMsg("Please Check Your Credentials")
